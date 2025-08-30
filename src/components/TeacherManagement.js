@@ -5,7 +5,7 @@ import axios from 'axios';
 import './Management.css'; // Using the shared CSS
 
 // <<< FIX #2: Define the correct API URL >>>
-const API_URL = 'https://school-gudu.onrender.com/api/teachers';
+const API_URL = 'https://school-backend-c8gj.onrender.com/api/teachers';
 
 const TeacherManagement = () => {
     const [teachers, setTeachers] = useState([]);
