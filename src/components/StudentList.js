@@ -8,7 +8,7 @@ const StudentList = () => {
 
   useEffect(() => {
     // Fetch student data from our backend API
-    axios.get('http://localhost:5000/api/students')
+    axios.get('https://school-gudu.onrender.com/api/students')
       .then(response => {
         setStudents(response.data);
         setLoading(false);
