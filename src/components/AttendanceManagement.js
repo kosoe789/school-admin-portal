@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './Management.css';
 
-const API_URL = 'https://school-gudu.onrender.com/api';
+const API_URL = 'https://school-backend-c8gj.onrender.com/api';
 
 const AttendanceManagement = () => {
     const [students, setStudents] = useState([]);
