@@ -1,10 +1,12 @@
-// src/App.js - FINAL CHECK
+// src/App.js
 
 import React from 'react';
 import StudentManagement from './components/StudentManagement';
 import TeacherManagement from './components/TeacherManagement';
-import TimetableManagement from './components/TimetableManagement'; // << MUST BE IMPORTED
+import TimetableManagement from './components/TimetableManagement';
 import AttendanceManagement from './components/AttendanceManagement';
+import GradeManagement from './components/GradeManagement'; // <-- အသစ်ထည့်ရန်
+import AnnouncementManagement from './components/AnnouncementManagement'; // <-- အသစ်ထည့်ရန်
 import './App.css';
 
 function App() {
@@ -18,9 +20,13 @@ function App() {
         <hr className="section-divider" />
         <TeacherManagement />
         <hr className="section-divider" />
-        <TimetableManagement /> {/* << MUST BE HERE */}
+        <TimetableManagement />
         <hr className="section-divider" />
         <AttendanceManagement />
+        <hr className="section-divider" /> {/* <-- အသစ်ထည့်ရန် */}
+        <GradeManagement />                 {/* <-- အသစ်ထည့်ရန် */}
+        <hr className="section-divider" /> {/* <-- အသစ်ထည့်ရန် */}
+        <AnnouncementManagement />          {/* <-- အသစ်ထည့်ရန် */}
       </main>
     </div>
   );
