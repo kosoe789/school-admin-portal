@@ -5,7 +5,7 @@ import axios from 'axios';
 import './Management.css';
 
 // သင့်ရဲ့ Backend URL အမှန်ကို သေချာစစ်ဆေးပါ
-const API_URL = 'https://school-backend-cl8g.onrender.com/api';
+const API_URL = 'https://school-backend-c8gj.onrender.com/api';
 
 const GradeManagement = () => {
     const [grades, setGrades] = useState([]);
@@ -73,3 +73,4 @@ const GradeManagement = () => {
 };
 
 export default GradeManagement;
+
