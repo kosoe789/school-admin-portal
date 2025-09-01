@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import './Management.css';
 
-const API_URL = 'https://school-backend-cl8g.onrender.com/api/announcements';
+const API_URL = 'https://school-backend-c8gj.onrender.com/api/announcements';
 
 const AnnouncementManagement = () => {
     const [title, setTitle] = useState('');
